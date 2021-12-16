@@ -1,0 +1,12 @@
+name: learn-github-actions
+on: [push]
+jobs:
+  my-testing:
+    runs-on: ubuntu-latest  
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install python
+      uses: actions/setup-python@v2
+      with:
+        python.version: 3.7
+        run: pytest TZ3_BELOV/test_TZ3_BELOV.py

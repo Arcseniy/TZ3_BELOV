@@ -1,0 +1,3 @@
+/Users/arseniybelov/PycharmProjects/TZ3/TZ3_TEST_1.txt -- 8.600570005
+/Users/arseniybelov/PycharmProjects/TZ3/TZ3_TEST_2.txt -- 8.486763893
+/Users/arseniybelov/PycharmProjects/TZ3/TZ3_TEST_3.txt -- 8.493611247

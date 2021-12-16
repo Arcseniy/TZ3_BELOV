@@ -4,9 +4,9 @@
 
 import timeit
 
-file_names = ['/Users/arseniybelov/PycharmProjects/TZ3/TZ3_TEST_1.txt',
-              '/Users/arseniybelov/PycharmProjects/TZ3/TZ3_TEST_2.txt',
-              '/Users/arseniybelov/PycharmProjects/TZ3/TZ3_TEST_3.txt']
+file_names = ['TZ3_TEST_1.txt',
+              'TZ3_TEST_2.txt',
+              'TZ3_TEST_3.txt']
 
 # Функция, которая считывает файл и записывает числа в список
 
@@ -100,7 +100,7 @@ def script_time(file_name):
     res_time = timeit.timeit("func_for_func()", globals=globals(), number=50)
     res[file_name] = res_time
     s = file_name + " -- " + str(res[file_name])
-    with open('/Users/arseniybelov/PycharmProjects/TZ3/RESULTS.txt', "a") as file:
+    with open('RESULTS.txt', "a") as file:
         file.write(s + "\n")
     return res_time
 

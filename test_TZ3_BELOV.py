@@ -6,7 +6,7 @@ arr = file_read('/Users/arseniybelov/PycharmProjects/TZ3/TZ3_TEST_1.txt')
 
 
 def test_find_min_num():
-    assert find_min_num([0, 1, 2, 3]) == 3
+    assert find_min_num([0, 1, 2, 3]) == 0
     assert find_min_num([-228.228, -1337, 3.14]) == -1337
     assert find_min_num([-1.12, -1.05]) == -1.12
 

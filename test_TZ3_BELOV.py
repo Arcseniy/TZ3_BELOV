@@ -1,6 +1,6 @@
 from TZ3_BELOV import *
 
-arr = file_read('/Users/arseniybelov/PycharmProjects/TZ3/TZ3_TEST_1.txt')
+arr = file_read('TZ3_TEST_1.txt')
 
 # Тест функции, ищущей минимальное число
 

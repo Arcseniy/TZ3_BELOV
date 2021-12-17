@@ -24,4 +24,4 @@
 
 ---
 
-![workflow](https://github.com/Arcseniy/TZ3_BELOV/actions/workflows/CI_TEST_CHANGES.yml/badge.svg)
+![workflow](https://github.com/Arcseniy/TZ3_BELOV/test-actions/workflows/CI_TEST_CHANGES.yml/badge.svg)
